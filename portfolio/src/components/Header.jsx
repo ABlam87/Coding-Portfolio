@@ -5,8 +5,7 @@ function Header() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/" end>Home</NavLink>
                 </li>
@@ -18,7 +17,6 @@ function Header() {
                 </li>
               </ul>
             </div>
-          </div>
         </nav>
     );
 }

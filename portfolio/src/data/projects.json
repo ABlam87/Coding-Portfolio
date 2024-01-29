@@ -1,8 +1,38 @@
 [
     {
         "id": 1,
-        "title": "My awesome project",
-        "description": "description",
+        "title": "My awesome project 1",
+        "description": "description 1",
+        "image": "image source"
+    },
+    {
+        "id": 2,
+        "title": "My awesome project 2",
+        "description": "description 2",
+        "image": "image source"
+    },
+    {
+        "id": 3,
+        "title": "My awesome project 3",
+        "description": "description 3",
+        "image": "image source"
+    },
+    {
+        "id": 4,
+        "title": "My awesome project 4",
+        "description": "description 4",
+        "image": "image source"
+    },
+    {
+        "id": 5,
+        "title": "My awesome project 5",
+        "description": "description 5",
+        "image": "image source"
+    },
+    {
+        "id": 6,
+        "title": "My awesome project 6",
+        "description": "description 6",
         "image": "image source"
     }
 ]
