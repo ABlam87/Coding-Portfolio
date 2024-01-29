@@ -1,38 +1,44 @@
 [
     {
         "id": 1,
-        "title": "My awesome project 1",
-        "description": "description 1",
-        "image": "image source"
+        "title": "TravelFanatix Planner App",
+        "description": "A planner, using APIs to generate weather and points of interest data for any city",
+        "image": "./src/assets/images/travel fanatix.png",
+        "link": "https://agworkgit.github.io/travel-fanatix/"
     },
     {
         "id": 2,
-        "title": "My awesome project 2",
-        "description": "description 2",
-        "image": "image source"
+        "title": "Weather Forecast App",
+        "description": "A dashboard that fetches a 5-day weather forecast for any city searched for",
+        "image": "./src/assets/images/weather dashboard.png",
+        "link": "https://ablam87.github.io/Weather-Dashboard/"
     },
     {
         "id": 3,
-        "title": "My awesome project 3",
-        "description": "description 3",
-        "image": "image source"
+        "title": "Code Refactor",
+        "description": "My very first project (aww), refactoring code for a website",
+        "image": "./src/assets/images/Horiseon.png",
+        "link": "https://ablam87.github.io/Code-Refactor/"
     },
     {
         "id": 4,
-        "title": "My awesome project 4",
-        "description": "description 4",
-        "image": "image source"
+        "title": "Password Generator",
+        "description": "An app that generates random passwords using minimal user input",
+        "image": "./src/assets/images/password generator.png",
+        "link": "https://ablam87.github.io/password-generator/"
     },
     {
         "id": 5,
-        "title": "My awesome project 5",
-        "description": "description 5",
-        "image": "image source"
+        "title": "CSS Cheatsheet",
+        "description": "A cheatsheet of handy CSS tips and tricks",
+        "image": "./src/assets/images/CSS Cheatsheet.PNG",
+        "link": "https://ablam87.github.io/CSS-Snippet-Cheatsheet/"
     },
     {
         "id": 6,
-        "title": "My awesome project 6",
-        "description": "description 6",
-        "image": "image source"
+        "title": "Coding Quiz",
+        "description": "A quiz featuring 10 coding questions, and a leaderboard that saves to local storage",
+        "image": "./src/assets/images/quiz.png",
+        "link": "https://ablam87.github.io/Coding-Quiz/"
     }
 ]
