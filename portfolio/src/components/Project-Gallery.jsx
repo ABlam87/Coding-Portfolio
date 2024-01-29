@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "./Project";
 import projects from '../data/projects.json'
 
 function ProjectGallery() {
@@ -9,3 +10,5 @@ function ProjectGallery() {
         })}
     </div>
 }
+
+export default ProjectGallery
