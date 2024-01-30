@@ -1,8 +1,33 @@
-# React + Vite
+ # Adam Blampied - Coding Portfolio
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  Hello! I'm Adam and this is my coding portfolio, featuring all of my contact information, a link to my current resume, and my most recent deployed applications. Hope you enjoy having a look around!
 
-Currently, two official plugins are available:
+  ## URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  https://ablam87.github.io/Coding-Portfolio/
+
+  ## Table of Contents
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Contact](#contact)
+  
+  ## Installation
+  
+  (N/A)
+  
+  ## Usage
+  
+  Built using React and React Router, the seperate pages within my site should render instantly on mouseclick.
+  
+  ## License
+  
+  This project is license under the MIT License
