@@ -1,8 +1,139 @@
-.projectsBox {
-  display: flex;
-  justify-content: center;
+:root{
+  --green: #a7b9a5;
+  --darkgreen: #849483;
+  --darkestgreen: #283627;
 }
 
+#root {
+  background-color: var(--green) !important;
+}
+
+body {
+  background-color: var(--green)!important;
+}
+
+#homePage, #projectPage, #contactPage {
+  background-color: var(--green);
+}
+
+.navbar {
+  margin: auto !important;
+  background-color: var(--green) !important;
+}
+
+.nav-link {
+  color: var(--green) !important;
+  font-size: 18px !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#header {
+  background-color: var(--darkestgreen);
+  display: inline-block;
+}
+
+#header ul {
+  margin-left: 65%;
+}
+
+#header li {
+  margin-left: 30px;
+}
+
+.nav-item {
+  color: var(--green) !important;
+}
+
+.nav-link:hover {
+  color: var(--darkgreen) !important;
+  box-shadow: inset 200px 0 0 0 var(--jasmine);;
+}
+
+#headshot{
+  border-radius: 50%;
+}
+
+#jumbotron{
+  background-image: url(./assets/images/green\ background.jpg);
+  background-size: cover;
+  margin:auto;
+  background-repeat: no-repeat;
+}
+
+.jumboimg {
+  border-radius: 50%;
+  max-height: 300px;
+  max-width: 300px;
+  margin: auto;
+}
+.jumbotron{
+  display: flex !important;
+  align-items: flex-end !important;
+  max-height: 200px;
+
+}
+
+.jumboCopy span {
+  margin: auto;
+  text-align: center !important;
+  background-color: #283627;
+  color: var(--green);
+}
+
+#jumbotron img {
+width: 250px;
+max-width: 250px;
+max-height: 250px;
+}
+
+#skillHead h1 {
+  margin-top: 40px;
+}
+
+#skillCopy, #resumeCopy, #aboutMeCopy {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#skillCopy, #resumeCopy, #aboutMeCopy {
+  border-top: solid 5px var(--darkestgreen);
+}
+
+#skillCopy {
+  padding-top: 40px;
+}
+
+#skillCopy img {
+  background-color: #283627;
+  border-radius: 10%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+#resumeCopy {
+  padding-top: 50px;
+  font-size: large;
+}
+
+#resumeCopy a {
+  color: black;
+}
+#aboutMeCopy {
+  text-align: left;
+  display: block;
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.projectsBox {
+  display:flex;
+  justify-content: center;
+}
 .projectsBox img{
   width: 300px;
   margin-left: 14px;
@@ -18,6 +149,19 @@
   width: 350px !important;
   display: flex;
   justify-content: center;
+  border: solid 3px var(--darkestgreen) !important;
+  box-shadow: 1px 1px rgba(0,0,0,0.5);
+  background-color: #849483 !important;
+}
+
+.project img {
+  border: solid 2px rgba(0,0,0,0.5);
+}
+
+.project p{
+  margin-top: 20px;
+  color: black;
+  font-size: large !important;
 }
 
 .projectLink { 
@@ -30,9 +174,48 @@
     z-index: 1;
   
     background-image: url('empty.gif');
-  }   
+  }
+  
+  .project:hover {
+    outline: 3px solid white;
+}
 
-#skillCopy {
-  display: flex;
-  justify-content: center;
+#contactPage span {
+  border-bottom: solid 4px var(--darkestgreen);
+  padding-bottom: 20px;
+}
+
+.contactCopy {
+  padding-top: 20px;
+  display: flex !important;
+  justify-content: space-evenly;
+
+
+}
+
+.contactCopy img {
+  height: 75px !important;
+  width: 75px !important;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.contactCopy .ig {
+  width: 180px!important;
+}
+
+.contactCopy a {
+  color: #000;
+}
+
+.contactCopy .card {
+  display: flex !important;
+  justify-content: center !important;
+  background-color:var(--green);
+  border: none;
+}
+
+.contactCopy p {
+  font-size: 17px;
+  margin-top: 10px;
 }

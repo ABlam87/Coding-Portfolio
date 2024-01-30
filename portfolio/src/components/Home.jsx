@@ -1,13 +1,13 @@
 import React from "react";
 
 const Home = function() {
-    return <div>
+    return <div id = 'homePage'>
         <section className="container-fluid row" id="jumbotron">
-            <img src="./src/assets/images/headshot 2.jpg" className="col-md-3 col-lg-3 jumboimg"></img>
-            <div className="jumbotron jumbotron-fluid col-md-9 col-lg-9">
+            <img id='headshot' src="./src/assets/images/headshot 2.jpg" className="col-md-12 col-lg-3 jumboimg"></img>
+            <div className="jumbotron jumbotron-fluid col-md-12 col-lg-9">
                 <div className="container jumboCopy">
-                    <h1 className="display-4">Adam Blampied // Web Developer</h1>
-                    <p className="lead">Just don't fall in love with him.</p>
+                    <h1 className="display-4"><span className="span1">Adam Blampied // Web Developer</span></h1>
+                    <p className="lead"><span className="span2">Just don't fall in love with him.</span></p>
                 </div>
             </div>
         </section>
@@ -20,22 +20,22 @@ const Home = function() {
                     <h1>Skills</h1>
                 </div>
                 <div className="col-lg-8 col-md-12 row" id="skillCopy">
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ width: "100px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4">
                         <img src="./src/assets/images/html logo.webp" className="card-img-top" alt="HTML5"></img>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ width: "100px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4">
                         <img src="./src/assets/images/css logo.webp" className="card-img-top" alt="CSS"></img>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ width: "105px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4">
                         <img src="./src/assets/images/javascript icon.webp" className="card-img-top" alt="javascript"></img>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ paddingTop: "6px", width: "105px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4">
                         <img src="./src/assets/images/Bootstrap_logo.svg.png" className="card-img-top" alt="Bootstrap"></img>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ width: "100px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4" >
                         <img src="./src/assets/images/node icon.png" className="card-img-top" alt="Node"></img>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-sm-4" style= {{ paddingTop: "6px", width: "105px" }}>
+                    <div className="col-lg-2 col-md-4 col-sm-4">
                         <img src="./src/assets/images/react icon.png" className="card-img-top" alt="React"></img>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ const Home = function() {
                 </div>
 
                 <div className="col-lg-8 col-md-12" id="resumeCopy">
-                    <p>Click here to see a PDF of my CV</p>
+                    <a href = '' target="_blank">Click here to see a PDF of my CV</a>
                 </div>
             </div>
 
