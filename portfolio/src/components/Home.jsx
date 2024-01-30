@@ -49,7 +49,7 @@ const Home = function() {
                 </div>
 
                 <div className="col-lg-8 col-md-12" id="resumeCopy">
-                    <a href = '' target="_blank">Click here to see a PDF of my CV</a>
+                    <a href = './src/assets/files/Adam Blampied - CV 2024.pdf' target="_blank">Click here to see a PDF of my CV</a>
                 </div>
             </div>
 
